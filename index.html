@@ -117,42 +117,17 @@
       </div>
     </div>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#erroGravacao">
-      Launch demo modal
-    </button>
-
     <!-- Modal -->
-    <div class="modal fade" id="erroGravacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="registraDespesa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header text-danger">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <div id="modalTituloDiv">
+            <h5 class="modal-title" id="modalTitulo"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
-            Preencha todos os campos.
-          </div>
+          <div class="modal-body" id="modal_conteudo"></div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Voltar e corrigir</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="sucessoGravacao" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header text-success">
-            <h5 class="modal-title" id="exampleModalLabel">Registro inserido com sucessso!</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Despesa foi cadastrada com sucesso!
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+            <button type="button"  id="modal_btn" data-bs-dismiss="modal"></button>
           </div>
         </div>
       </div>
